@@ -1,6 +1,6 @@
 {
   "name": "@kristoferfannar/eslint-ban-moment",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "eslint-ban-moment.js",
   "publishConfig": {
