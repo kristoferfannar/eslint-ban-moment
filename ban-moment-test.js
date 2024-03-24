@@ -1,7 +1,7 @@
-import banMoment from "./ban-moment";
-import { RuleTester } from "eslint";
-import parser from "@typescript-eslint/parser";
-import { describe, it } from "vitest";
+const banMoment = require("./ban-moment");
+const { RuleTester } = require("eslint");
+const parser = require("@typescript-eslint/parser");
+const { describe, it } = require("vitest");
 
 RuleTester.describe = function (text, method) {
   describe(text, method);

@@ -1,6 +1,6 @@
 // @ts-check
 /** @type {import('eslint').Rule.RuleModule} */
-export default {
+module.exports = {
   create(context) {
     return {
       ImportDeclaration: function (node) {
