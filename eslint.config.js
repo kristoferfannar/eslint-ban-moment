@@ -1,16 +1,16 @@
-// IMPORTANT:
-// For some reason, it's necessary to include the .js suffix to this import.
-// Otherwise, an `Error [ERR_MODULE_NOT_FOUND]` occurs.
-import banMoment from "./eslint-ban-moment.js";
+"use strict";
+const banMoment = require("./eslint-ban-moment");
 
-export default {
-  files: ["**/*.js"],
-  languageOptions: {
-    sourceType: "module",
-    ecmaVersion: "latest",
+module.exports = [
+  {
+    files: ["**/*.js"],
+    languageOptions: {
+      sourceType: "module",
+      ecmaVersion: "latest",
+    },
+    plugins: { "ban-moment": banMoment },
+    rules: {
+      "ban-moment/ban-moment": "error",
+    },
   },
-  plugins: { kristo: banMoment },
-  rules: {
-    "kristo/eslint-plugin-ban-moment": "error",
-  },
-};
+];
