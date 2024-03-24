@@ -11,6 +11,6 @@ export default {
   },
   plugins: { kristo: banMoment },
   rules: {
-    "kristo/eslint-ban-moment": "error",
+    "kristo/eslint-plugin-ban-moment": "error",
   },
 };
