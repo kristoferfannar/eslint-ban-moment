@@ -1,7 +1,7 @@
 {
   "name": "@kristoferfannar/eslint-plugin-ban-moment",
   "version": "3.0.0",
-  "description": "Eslint plugin for final assignment in VIHU",
+  "description": "BAN MOMENT: Eslint plugin for final assignment in VIHU",
   "main": "eslint-ban-moment.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -18,7 +18,7 @@
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "",
+  "author": "@kristoferfannar",
   "license": "ISC",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.3.1",
